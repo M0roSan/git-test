@@ -1,2 +1,3 @@
 def multiply(a:int, b:int) -> int:
-    return a * b
+    """Return multiply of two numbers"""
+    return a*b

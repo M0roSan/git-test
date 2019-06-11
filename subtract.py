@@ -1,2 +1,3 @@
 def subtract(a:int, b:int) -> int:
-    return a - b
+    """Return subtraction of two numbers"""
+    return a-b
