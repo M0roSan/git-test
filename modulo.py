@@ -1,3 +1,3 @@
-def modulo(a:int, b:int) -> int:
+def modulo(a:int, b:int, bMODULOa:bool) -> int:
     """comment from local"""
-    return a % b
+    return (bMODULOa) ? b % a: a % b
